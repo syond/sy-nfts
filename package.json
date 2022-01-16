@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testnet": "npx hardhat run scripts/deploy.js --network rinkeby"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,8 @@
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.3",
     "hardhat": "^2.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^12.0.3"
   }
 }
